@@ -1,4 +1,3 @@
-
 'use client';
 import { useState } from 'react';
 
@@ -7,9 +6,9 @@ export default function BirthdayPage() {
 
   // Ganti src dengan direct link Google Drive foto keluarga Anda
   const photos = [
-    { src: '/images/foto1.JPG', caption: 'Setiap detik bersamamu adalah anugerah terindah ❤️' },
-    { src: '/images/foto2.JPG', 'Keluarga kecil, dermaga kebahagiaan kita 🥰' },
-    { src: '/images/foto3.JPG', caption: 'Terima kasih telah menjadi pelabuhan terindah dalam hidupku ✨' },
+    { src: '/images/foto1.JPG', caption: 'Setiap detik bersamamu adalah anugerah terindah.' },
+    { src: '/images/foto2.JPG', caption: 'Keluarga kecil, dermaga kebahagiaan kita.' },
+    { src: '/images/foto3.JPG', caption: 'Terima kasih telah menjadi pelabuhan terindah dalam hidupku.' },
   ];
 
   return (
@@ -45,7 +44,7 @@ export default function BirthdayPage() {
           </h1>
           <div style={{ width: '40px', height: '2px', background: '#d4af37', margin: '0 auto 20px auto' }}></div>
           <p style={{ fontSize: '15px', color: '#475569', marginBottom: '32px', lineHeight: '1.8', fontStyle: 'italic' }}>
-            "Ada secarik rasa dan cinta abadi yang sengaja kuukir khusus untuk merayakan hari istimewamu..."
+            &ldquo;Ada secarik rasa dan cinta abadi yang sengaja kuukir khusus untuk merayakan hari istimewamu...&rdquo;
           </p>
           
           <button
@@ -145,7 +144,7 @@ export default function BirthdayPage() {
                   />
                 </div>
                 <p style={{ padding: '14px', fontSize: '13px', textAlign: 'center', color: '#475569', fontStyle: 'italic', lineHeight: '1.5' }}>
-                  "{photo.caption}"
+                  &ldquo;{photo.caption}&rdquo;
                 </p>
               </div>
             ))}
